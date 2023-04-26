@@ -29,6 +29,7 @@ public class PlayerScript : MonoBehaviour
         if(TimesUp)
         {
             GameObject.Find("Lose").SetActive(true);
+            this.transform.position = SpawnPoint.transform.position;
         }
     }
 
