@@ -19,8 +19,8 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         this.transform.position = SpawnPoint.transform.position;
-        Score.text = "0";
-        Timer.text = "2:00";
+        Score.text = "Score: 0";
+        Timer.text = "Time: 120S";
     }
 
     // Update is called once per frame
@@ -73,7 +73,7 @@ public class PlayerScript : MonoBehaviour
     {
         while(TimeLeft > 0)
         {
-            Timer.text = "Time: " + TimeLeft.ToString();
+            Timer.text = "Time: " + TimeLeft.ToString() + "S";
             --TimeLeft;
             yield return new WaitForSecondsRealtime(1.0f);
             

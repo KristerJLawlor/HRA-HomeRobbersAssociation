@@ -7669,7 +7669,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.62, y: 0.93, z: 0.42}
+  m_Size: {x: 0.62, y: 2.66, z: 0.42}
   m_Center: {x: 0.000000014901161, y: -0.1719228, z: 0.000000014901161}
 --- !u!1 &439083908 stripped
 GameObject:
@@ -32589,15 +32589,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 88b88f875cf0af442996954ba27bdf64, type: 2}
+    - target: {fileID: 1188093265419913699, guid: 6723febf70d07b7469fbcddd65e8660b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984325087548485788, guid: 6723febf70d07b7469fbcddd65e8660b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 6691014075462301753, guid: 6723febf70d07b7469fbcddd65e8660b,
         type: 3}
       propertyPath: m_Convex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6691014075462301753, guid: 6723febf70d07b7469fbcddd65e8660b,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7036766287611309663, guid: 6723febf70d07b7469fbcddd65e8660b,
         type: 3}
