@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: e1a65abf706eab54ca64c5fbcd124319
+timeCreated: 1465952837
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backOfSafe
+    100002: BottomHinge
+    100004: Container
+    100006: Cylinder001
+    100008: Door BACK SIDE
+    100010: door FRONT
+    100012: door sides unwrapped
+    100014: Frame Hinges
+    100016: handle
+    100018: inside door frame unwrapped
+    100020: inside of safe walls unwrapped
+    100022: insideSafe
+    100024: Long Tube
+    100026: Long Tube001
+    100028: //RootNode
+    100030: spline 001
+    100032: spline 002
+    100034: spline 003
+    100036: spline 004
+    100038: spline 005
+    100040: spline 006
+    100042: TopHinge
+    400000: backOfSafe
+    400002: BottomHinge
+    400004: Container
+    400006: Cylinder001
+    400008: Door BACK SIDE
+    400010: door FRONT
+    400012: door sides unwrapped
+    400014: Frame Hinges
+    400016: handle
+    400018: inside door frame unwrapped
+    400020: inside of safe walls unwrapped
+    400022: insideSafe
+    400024: Long Tube
+    400026: Long Tube001
+    400028: //RootNode
+    400030: spline 001
+    400032: spline 002
+    400034: spline 003
+    400036: spline 004
+    400038: spline 005
+    400040: spline 006
+    400042: TopHinge
+    2300000: backOfSafe
+    2300002: BottomHinge
+    2300004: Container
+    2300006: Cylinder001
+    2300008: Door BACK SIDE
+    2300010: door FRONT
+    2300012: door sides unwrapped
+    2300014: Frame Hinges
+    2300016: handle
+    2300018: inside door frame unwrapped
+    2300020: inside of safe walls unwrapped
+    2300022: insideSafe
+    2300024: Long Tube
+    2300026: Long Tube001
+    2300028: spline 001
+    2300030: spline 002
+    2300032: spline 003
+    2300034: spline 004
+    2300036: spline 005
+    2300038: spline 006
+    2300040: TopHinge
+    3300000: backOfSafe
+    3300002: BottomHinge
+    3300004: Container
+    3300006: Cylinder001
+    3300008: Door BACK SIDE
+    3300010: door FRONT
+    3300012: door sides unwrapped
+    3300014: Frame Hinges
+    3300016: handle
+    3300018: inside door frame unwrapped
+    3300020: inside of safe walls unwrapped
+    3300022: insideSafe
+    3300024: Long Tube
+    3300026: Long Tube001
+    3300028: spline 001
+    3300030: spline 002
+    3300032: spline 003
+    3300034: spline 004
+    3300036: spline 005
+    3300038: spline 006
+    3300040: TopHinge
+    4300000: Container
+    4300002: Long Tube
+    4300004: Frame Hinges
+    4300006: Door BACK SIDE
+    4300008: Long Tube001
+    4300010: Cylinder001
+    4300012: spline 001
+    4300014: spline 002
+    4300016: spline 003
+    4300018: spline 004
+    4300020: spline 005
+    4300022: spline 006
+    4300024: handle
+    4300026: TopHinge
+    4300028: BottomHinge
+    4300030: backOfSafe
+    4300032: insideSafe
+    4300034: inside door frame unwrapped
+    4300036: door sides unwrapped
+    4300038: inside of safe walls unwrapped
+    4300040: door FRONT
+    6400000: backOfSafe
+    6400002: BottomHinge
+    6400004: Container
+    6400006: Cylinder001
+    6400008: Door BACK SIDE
+    6400010: door FRONT
+    6400012: door sides unwrapped
+    6400014: Frame Hinges
+    6400016: handle
+    6400018: inside door frame unwrapped
+    6400020: inside of safe walls unwrapped
+    6400022: insideSafe
+    6400024: Long Tube
+    6400026: Long Tube001
+    6400028: spline 001
+    6400030: spline 002
+    6400032: spline 003
+    6400034: spline 004
+    6400036: spline 005
+    6400038: spline 006
+    6400040: TopHinge
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2.54
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
