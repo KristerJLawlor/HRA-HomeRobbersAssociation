@@ -13,6 +13,9 @@ public class PlayerScript : MonoBehaviour
     public TMP_Text ScoreText;
     public TMP_Text TimerText;
 
+    public Canvas FinalResults;
+    public TMP_Text FinalScore;
+
 
 
     //public Text Score;
@@ -40,6 +43,8 @@ public class PlayerScript : MonoBehaviour
         TimerText.text = "Time: 120S";
 
         AudioScript = FindObjectOfType<GameAudio>();
+
+        FinalResults.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,6 +56,9 @@ public class PlayerScript : MonoBehaviour
             Results.transform.GetChild(0).gameObject.SetActive(true);
 
             this.transform.position = SpawnPoint.transform.position;
+
+            FinalResults.transform.GetChild(0).gameObject.SetActive(true);
+            FinalScore.text = "Score: " + PlayerScore.ToString();
 
             TimeLeft = 120.0f;
 
@@ -90,6 +98,9 @@ public class PlayerScript : MonoBehaviour
             Results.transform.GetChild(1).gameObject.SetActive(false);
             Results.transform.GetChild(2).gameObject.SetActive(false);
 
+            //Reset player score to 0
+            PlayerScore = 0;
+
         }
         if (other.gameObject.tag == "Window")
         {
@@ -104,6 +115,14 @@ public class PlayerScript : MonoBehaviour
                 //GameObject.Find("Lose").SetActive(true);
                 Results.transform.GetChild(2).gameObject.SetActive(true);
             }
+            FinalResults.transform.GetChild(0).gameObject.SetActive(true);
+            FinalScore.text = "Score: " + PlayerScore.ToString();
+
+            this.transform.position = SpawnPoint.transform.position;
+
+            TimeLeft = 120.0f;
+
+            AudioScript.PlayNightAudio();
 
         }
 
