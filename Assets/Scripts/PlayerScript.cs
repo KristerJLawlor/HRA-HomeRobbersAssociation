@@ -137,6 +137,12 @@ public class PlayerScript : MonoBehaviour
             AudioScript.PlayMoneyAudio();
         }
 
+        if (other.gameObject.tag == "TestMoney")
+        {
+
+            AudioScript.PlayMoneyAudio();
+        }
+
     }
 
     public IEnumerator Countdown()

@@ -10,6 +10,7 @@ TagManager:
   - Window
   - Score
   - Timer
+  - TestMoney
   layers:
   - Default
   - TransparentFX
